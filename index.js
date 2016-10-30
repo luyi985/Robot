@@ -41,7 +41,7 @@ function commandMaping(command){
 var commandList		=	readJson();
 
 console.log(chalk.green.bold("Command Input:"));
-console.log(chalk.green.bold(commandList.join('\r\n')));
+console.log(chalk.green.bold(commandList?commandList.join('\r\n'):"Input invalid"));
 
 if(trimBeforePlaceCommand(commandList)){
 	commandList.map(function(command){

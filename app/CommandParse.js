@@ -16,7 +16,7 @@ function readJson(){
 }
 
 function trimBeforePlaceCommand(commandList) {
-	while(commandList.length>0){
+	while(commandList&&commandList.length>0){
 		if(commandList[0].indexOf("PLACE")>=0) return true;	
 		commandList.shift();
 	}
