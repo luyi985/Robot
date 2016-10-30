@@ -9,7 +9,7 @@
     "play": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yi Lu",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.18.0",
