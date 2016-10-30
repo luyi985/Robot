@@ -1,3 +1,6 @@
+<h2>Setup</h2>
+<p>git clone https://github.com/luyi985/Robot.git</p>
+<p>npm install</p>
 <h2>Command Line</h2>
 <h3>npm start</h3>
 <p>To generate a data.json file which will guide the robot moving on the table</p>
