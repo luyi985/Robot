@@ -24,7 +24,7 @@ readLine.prompt();
 readLine
 .on('line', function(line) {
 	var line = 	line.trim().toUpperCase();
-	if(commandInputValidate(line)){
+	if(commandInputValidate(line)){// command Input validation
   		data.push(line);  		
 	}
  	readLine.prompt();

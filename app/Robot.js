@@ -17,14 +17,14 @@ class Robot{
 										"E"	: "EAST"
  									}
 	}
-
+	//To prevent robot from falling, robot's current x or y value should be greater than 0 but less than the given table size that is config.tableSize-1
 	preventFalling(value){
 		var value =  value;
 		if (value <= 0) return 0;
 		if (value >= this.size-1) return this.size-1;
 		return value; 
 	}
-
+	//Set new poistion for Robot
 	place(newPosition){
 		this.position.x  =	this.preventFalling(parseInt(newPosition.x));
 		this.position.y  =	this.preventFalling(parseInt(newPosition.y));
